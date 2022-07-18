@@ -31,4 +31,20 @@ public class FizzBuzzTests
         string actual = fizzBuzz.For(input);
         Assert.AreEqual(expected, actual);
     }
+
+     [Test]
+    public void For_NumbersDivisibleByFive_ReturnBuzz() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        string actual = fizzBuzz.For(5);
+        string expected = "Buzz";
+        Assert.AreEqual(expected, actual);
+    }
+
+    [Test]
+    public void For_NumbersDivisibleByThreeAndFive_ReturnFizzBuzz() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        string actual = fizzBuzz.For(15);
+        string expected = "FizzBuzz";
+        Assert.AreEqual(expected, actual);
+    }
 }
