@@ -47,4 +47,14 @@ public class FizzBuzzTests
         string expected = "FizzBuzz";
         Assert.AreEqual(expected, actual);
     }
+
+    [Test]
+    [TestCase(15, "QuackWoof")]
+    [TestCase(3, "Quack")]
+    [TestCase(5, "Woof")]
+    public void For_UsingCustomSounds_ReturnsCustomSounds(int input, string expected) {
+        FizzBuzz fizzBuzz = new FizzBuzz("Quack", "Woof");
+        string actual = fizzBuzz.For(input);
+        Assert.AreEqual(expected, actual);
+    }
 }
