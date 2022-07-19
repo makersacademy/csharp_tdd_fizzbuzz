@@ -2,7 +2,7 @@
 
 This repo accompanies our introduction to C#. You can either dip into it at a specific stage or work through from start to finish.
 
-If youw want to work through the whole thing, start by watching, and following along with, stages 1 and 2. Then try to do each of the following stages before watching the video.
+If you want to work through the whole thing, start by watching, and following along with, stages 1 and 2. Then try to do each of the following stages before watching the video.
 
 ## Rules of FizzBuzz
 
