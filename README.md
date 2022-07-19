@@ -1,10 +1,42 @@
 # C# TDD FizzBuzz
 
-This repo accompanies our introduction to C#.
+This repo accompanies our introduction to C#. You can either dip into it at a specific stage or work through from start to finish.
+
+If youw want to work through the whole thing, start by watching, and following along with, stages 1 and 2. Then try to do each of the following stages before watching the video.
+
+## Rules of FizzBuzz
+
+You probably know the rules by now but here's a recap.
+
+FizzBuzz is a counting game where:
+* numbers divisible by 3 are replaced with the word "Fizz"
+* numbers divisible by 5 are replaced with the word "Buzz"
+* numbers divisible by 15 are replaced with the word "FizzBuzz"
+* all other numbers remain as they are
+
+So the FizzBuzz sequence up to 15 is:
+
+```
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+```
 
 ## Stages
 
-This customisable version of FizzBuzz was created in several stages. Either watch from the start or jump in at a point of interest.
+This application was developed in 6 stages. Each stage was recorded and a commit was made at the end, so you can revisit the codebase as it was at that point.
 
 ## 1. Initial setup
 - [Code](https://github.com/makersacademy/csharp_tdd_fizzbuzz/tree/0cf1ad26d3cd17b0ff4736e712097bb989b7d3c7)
